@@ -12,6 +12,8 @@ jobs:
 
             - run: pip install tox && tox
 
+            - run: bash <(curl -s https://codecov.io/bash)
+
 workflows:
   version: 2
 
