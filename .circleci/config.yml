@@ -12,8 +12,6 @@ jobs:
 
             - run: pip install tox && tox
 
-            - run: codecov --required || (sleep 5 && codecov --required) || (sleep 5 && codecov --required) || (sleep 5 && codecov --required) || (sleep 5 && codecov --required)
-
 workflows:
   version: 2
 
