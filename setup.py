@@ -10,7 +10,7 @@ setup(
         install_requires=[
             'flake8==3.7.8',
             'matplotlib==3.1.1',
-            'numpy==1.17.1',
+            'numpy==1.22.0',
             'pandas==0.25.1',
             'pytest==5.1.2',
             'python-dateutil==2.8.0',
